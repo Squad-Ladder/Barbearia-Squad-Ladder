@@ -1,11 +1,9 @@
-package barbearia;
-
 public class Servicos {
 
     String tipo;
     double valor;
 
-    Serviços(String tipo, double valor) {
+    Servicos(String tipo, double valor) {
         this.tipo = tipo;
         this.valor = valor;
     }
