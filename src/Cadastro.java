@@ -38,13 +38,10 @@ public class Cadastro {
     }
 
     public Cadastro(Integer id, String nome, String fone, Integer cpf) {
-
         this.id = id;
         this.nome =nome;
         this.fone = fone;
         this.cpf = cpf;
-
-
     }
 
 
