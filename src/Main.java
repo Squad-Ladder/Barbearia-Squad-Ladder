@@ -1,16 +1,18 @@
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        ArrayList<Serviços> lista = new ArrayList<>();
+        ArrayList<Servicos> lista = new ArrayList<>();
 
         System.out.println("------BÁSICOS-------");
-        Serviços serviço1 = new Serviços("Corte de cabelo", 35.00);
-        Serviços serviço2 = new Serviços("Barba", 25.00);
-        Serviços serviço3 = new Serviços("Cabelo + Barba", 50.00);
-        Serviços serviço4 = new Serviços("Hidratação", 60.00);
-        Serviços serviço5 = new Serviços("Limpeza de pele", 80.00);
+        Servicos serviço1 = new Servicos("Corte de cabelo", 35.00);
+        Servicos serviço2 = new Servicos("Barba", 25.00);
+        Servicos serviço3 = new Servicos("Cabelo + Barba", 50.00);
+        Servicos serviço4 = new Servicos("Hidratação", 60.00);
+        Servicos serviço5 = new Servicos("Limpeza de pele", 80.00);
 
 
         lista.add(serviço1);
