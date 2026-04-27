@@ -37,3 +37,4 @@ String boleto;
         this.boleto = boleto;
     }
 }
+
