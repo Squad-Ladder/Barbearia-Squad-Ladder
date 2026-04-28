@@ -8,7 +8,7 @@ public class Servicos {
         this.valor = valor;
     }
 
-    void exibirServiço() {
+    void exibirServico() {
         System.out.println("===================");
         System.out.println("Tipo: " + this.tipo);
         System.out.println("Valor: " + this.valor);
