@@ -1,3 +1,5 @@
+package entities;
+
 public class Cadastro {
 
    private Integer id;
