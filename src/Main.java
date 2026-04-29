@@ -27,6 +27,20 @@ public class Main {
 
 
         System.out.println("----AGENDAMENTO------");
+        Agendamento agendamento1 = new Agendamento("Marcelo", "Corte", "30/09 as 08:00");
+        agendamento1.confirmar();
+        agendamento1.exibirResumo();
+
+        //crud do sitema
+
+        Registro rG = new Registro();
+
+        Agendamento agendamento2 = new Agendamento("Joao Lucas", "Corte", "28/09 as 16:00");
+
+        rG.adicionarAgendamento(agendamento1);
+        rG.adicionarAgendamento(agendamento2);
+
+        rG.listarClientesEServicos();
         /*Agendamento agendamento = new Agendamento("Marcelo", "Corte", "30/09 as 08:00");
         agendamento.confirmar();
 
