@@ -6,7 +6,7 @@ public class Cliente {
     int telefone;
     String endereco;
 
-    Cliente(String nome, int telefone, String endereco) {
+    public Cliente(String nome, int telefone, String endereco) {
         this.nome = nome;
         this.telefone = telefone;
         this.endereco = endereco;

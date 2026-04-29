@@ -1,15 +1,21 @@
-import entities.Agendamento;
 import entities.Servicos;
 import services.BarbeariaSevice;
+import ui.Menu;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 
 public class Main {
     public static void main(String[] args) {
+        Menu menu = new Menu();
+        menu.iniciarAtendimento();
+    }
+}
 
-        BarbeariaSevice barbeariaSevice = new BarbeariaSevice();
+
+
+
+       /* BarbeariaSevice barbeariaSevice = new BarbeariaSevice();
         ArrayList<Servicos> lista = new ArrayList<>();
 
         //System.out.println("------BÁSICOS-------");
@@ -19,35 +25,21 @@ public class Main {
         barbeariaSevice.adicionarServico(new Servicos("Hidratação", 60.00));
         barbeariaSevice.adicionarServico(new Servicos("Limpeza de pele", 80.00));
 
-       /* lista.add(servico1);
-        lista.add(servico2);
-        lista.add(servico3);
-        lista.add(servico4);
-        lista.add(servico5);
-
-
-        servico1.exibirServico();
-        servico2.exibirServico();
-        servico3.exibirServico();
-
-        System.out.println("------PREMIUM------");
-
-        servico4.exibirServico();
-        servico5.exibirServico();
-
-        */
 
         System.out.println("----AGENDAMENTO------");
         /*Agendamento agendamento = new Agendamento("Marcelo", "Corte", "30/09 as 08:00");
         agendamento.confirmar();
 
-         */
+
         barbeariaSevice.servicoAgendamento("Marcelo", "Corte de cabelo", "30/09 às 08:00");
         barbeariaSevice.servicoAgendamento("Nicolas", "Barba", "30/09 às 09:00");
-       // agendamento.exibirResumo();
+        agendamento.exibirResumo();
 
         barbeariaSevice.exibirServicosPremium();
         barbeariaSevice.exibirAgendamentoCompleto();
 
     }
 }
+
+
+        */
