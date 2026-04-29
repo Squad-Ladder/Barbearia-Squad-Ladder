@@ -14,7 +14,7 @@ public class Usuario {
 
     void exibirUsuario() {
         System.out.println("-----CLIENTE-----");
-        System.out.println("Cliente: " + this.nome);
+        System.out.println("entities.Cliente: " + this.nome);
         System.out.println("Telefone: " + this.telefone);
         System.out.println("Endereço:" + this.endereco);
         System.out.println("--------------");

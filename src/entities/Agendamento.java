@@ -1,3 +1,5 @@
+package entities;
+
 public class Agendamento {
     public String nomeCliente;
     public String servico;
@@ -20,6 +22,6 @@ public class Agendamento {
     }
 
     public void exibirResumo() {
-        System.out.println("Cliente: " + nomeCliente + " | Serviço: " + servico + " | Horário: " + dataHora + " | Status: " + status);
+        System.out.println("entities.Cliente: " + nomeCliente + " | Serviço: " + servico + " | Horário: " + dataHora + " | Status: " + status);
     }
 }
